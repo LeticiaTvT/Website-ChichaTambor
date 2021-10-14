@@ -1,0 +1,100 @@
+body{
+    background-color: wheat;
+}
+
+#nav{
+    background-color: black;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+nav ul{
+    height: 130px;
+    margin: auto;  
+}
+ul li{
+    display: inline-block;
+    margin: 50px 20px 20px 20px;
+    text-align: right;
+    font-size: large;   
+}  
+a:link{
+    color: whitesmoke;
+    text-decoration: none;
+}  
+a:visited{
+    color: whitesmoke;
+}
+a:hover{
+    text-decoration: underline;
+}
+#welc{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 50px 200px 30px 10px;
+}
+#img{
+    margin: 10px 10px;
+float: left;
+}
+#artbody{
+    display: grid;
+    grid-template-areas: "art1 art2"
+                         "art1 art2";
+
+
+}
+#body2{
+    background-color: rgb(179, 160, 126);
+}
+#art1{
+ grid-area: art1;
+ background-color: wheat;
+ border: 2px solid;
+ border-radius: 5px;
+ border-color: rgb(128, 127, 128);;
+ width: 600px;
+ height: auto;
+ margin: 10%;
+ font-size: 0.5cm;
+ padding: 10px;
+}
+#art2{
+grid-area: art2;
+background-color: wheat;
+border: 2px solid;
+border-radius: 5px;
+border-color: rgb(128, 127, 128);
+width: 600px;
+height: auto;
+margin: 10%;
+font-size: 0.5cm;
+padding: 10px;
+
+}
+a[href$=".00064"] {
+    font-style: italic;
+    border-color: rgb(26, 25, 25);
+    color: whitesmoke;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+
+  }
+#exp{
+    background-color: black;
+    color: whitesmoke;
+    padding: 40px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+#cuatro{
+    text-align: center;
+    font-size: large;
+    padding: 60px;
+    margin: auto;
+    background-color: rgb(179, 151, 99);
+}

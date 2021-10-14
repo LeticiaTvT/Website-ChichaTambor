@@ -1,0 +1,227 @@
+body{
+    background-color: wheat;
+}
+#nav{
+    background-color: black;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+nav ul{
+    height: 130px;
+    margin: auto;  
+}
+ul li{
+    display: inline-block;
+    margin: 50px 20px 20px 20px;
+    text-align: right;
+    font-size: large;   
+}  
+a:link{
+    color: whitesmoke;
+    text-decoration: none;
+}  
+a:visited{
+    color: whitesmoke;
+}
+a:hover{
+    text-decoration: underline;
+}
+#welc{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 50px 200px 30px 10px;
+}
+#img{
+    margin: 10px 10px;
+float: left;
+}
+#us{
+    text-align: center;
+    margin: 100px 30px 100px 30px ;
+}
+#us2{
+    text-align: center;
+    margin: 10px 35% 50px 35% ;
+    font-size: 0.5cm;
+}
+#uss{
+    margin:   20px 5% 50px 5%  ;
+}
+#presen{
+    text-align: center;
+    background-image: url(fond.jpeg);
+    height: 600px;
+}
+#hello{
+    margin: 30px 20px;
+    font-size: 1.5cm;
+    font-family: Garamond;
+    color: white;
+}
+hr{
+    color: gray;
+
+}
+#steps{
+    display: grid;
+    grid-template-areas: "step1 step2"
+               "step3 step4"
+               "step5 step6";
+}
+#step1{
+grid-area:step1 ;margin: 20px 250px 20px 250px;
+} 
+#step2{
+    grid-area:step2 ; margin: 20px 250px 20px 250px;
+
+}
+#step3{
+  grid-area:step3 ;  margin: 20px 250px 20px 250px;
+
+}
+#step4{
+    grid-area:step4 ;  margin: 20px 250px 20px 250px;
+
+}
+#step5{
+    grid-area:step5 ; margin: 20px 250px 20px 250px;
+
+}
+#step6{
+    grid-area:step6 ;  margin: 20px 250px 20px 250px;
+
+}
+#reser{
+    text-align: center; 
+    background-image: url(reser.jpg) ;
+    height: 500px;
+    width: auto;
+    color: white;
+}
+#cajeta{
+    float: left;
+    margin: 20px 40px 40px 40px; 
+}
+#float{
+    padding: 40px;
+}
+#foreser{
+    display: grid;
+    grid-template-areas: "cab cab"
+                          "form loc";
+    background-image: url(cajeta2.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-weight: bold;
+    background-size: 100% 750px;
+   
+}
+#cab{
+    grid-area: cab;
+    text-align: center;
+    background-color: black;
+
+}
+#form{
+    grid-area: form;
+    width: 400px;
+    height: 550px;
+    margin: 20px 25px 0px 20px;    
+}
+#loc{
+    grid-area: loc;
+    padding: 50px;
+margin: 5px 0px 0px 5px;
+     color: rgb(255, 255, 255);
+     background-color: rgb(32, 32, 32);
+     width: 300px;
+     height: 200px;
+}
+input{
+    padding: 5px;
+    width: 400px;
+    height: 40px;
+    border: 0px;
+    border-radius: 4px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+#submit{
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: black;
+    color: whitesmoke;
+    width: 100px;
+    margin: 0px 50px 0px 150px;
+}
+#submit:hover{
+    border: 1px solid;
+    border-color: white;
+
+}
+textarea{
+    width: 400px;
+    height: 200px;
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+#contact{
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+}
+h2{
+    padding: 10px;
+}
+h1{
+    padding: 10px;
+}
+#artbody{
+    display: grid;
+    grid-template-areas: "art1 art2"
+                         "art1 art2";
+
+
+}
+#body2{
+    background-color: rgb(179, 160, 126);
+}
+#art1{
+ grid-area: art1;
+ background-color: wheat;
+ border: 2px solid;
+ border-radius: 5px;
+ border-color: rgb(128, 127, 128);;
+ width: 600px;
+ height: auto;
+ margin: 10%;
+ font-size: 0.5cm;
+ padding: 10px;
+}
+#art2{
+grid-area: art2;
+background-color: wheat;
+border: 2px solid;
+border-radius: 5px;
+border-color: rgb(128, 127, 128);
+width: 600px;
+height: auto;
+margin: 10%;
+font-size: 0.5cm;
+padding: 10px;
+
+}
+a[href$=".00064"] {
+    font-style: italic;
+    border-color: rgb(26, 25, 25);
+    color: whitesmoke;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+
+  }
